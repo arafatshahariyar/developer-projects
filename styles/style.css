@@ -19,6 +19,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+i{
+    margin-right: 2px;
+}
 .header{
     background-color: #fff8f3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
