@@ -92,8 +92,12 @@ i{
 }
 /* banner section starts */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about-container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     text-align: center;
     margin-top: 100px;
@@ -125,7 +129,7 @@ i{
 
 /* what i do section starts */
 .what-i-do{
-   max-width:1200px; 
+   /* max-width:1200px;  */
    margin: 0 auto;
    margin-top: 130px;  
 }
@@ -162,7 +166,7 @@ i{
 
 /* resume section ends */
 .resume-containers{
-    max-width:1200px; 
+    /* max-width:1200px;  */
     margin: 0 auto;
     margin-top: 130px;  
  }
@@ -203,7 +207,7 @@ i{
 /* resume section ends */
 .footer-section{
     display: flex;
-    max-width:1200px; 
+    max-width:1140px; 
     margin: 0 auto;
     margin-top: 130px; 
     background-color:  #fff8f3;
@@ -260,7 +264,7 @@ textarea{
 /* responsive section */
 @media screen and (max-width:576px) {
      .what-i-do, .resume-containers{
-        max-width: 70%;
+        /* max-width: 70%;  */
      }
     .skill-container,.resume-container{
         flex-direction: column;
