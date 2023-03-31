@@ -255,3 +255,16 @@ textarea{
     margin-bottom: 50px;
    
 }
+
+
+/* responsive section */
+@media screen and (max-width:576px) {
+     .what-i-do, .resume-containers{
+        max-width: 70%;
+     }
+    .skill-container,.resume-container{
+        flex-direction: column;
+        padding: 10px 10px;
+        
+    }
+}
