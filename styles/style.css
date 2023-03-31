@@ -205,70 +205,48 @@ main {
     margin: 0 auto;
 }
 /* resume section ends */
-.footer-section{
+/* contact styles */
+.contact{
     display: flex;
-    max-width:1140px; 
-    margin: 0 auto;
-    margin-top: 130px; 
-    background-color:  #fff8f3;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 50px;
 }
-.footer-title{
-    padding-left: 150px;
-    font-size: 40px;
-    margin-bottom: 30px;
-    margin-top: 130px;
-}
-.container-dec{
-    width: 40%;
-    text-align: justify;
-    font-size: 20px;
-    color: gray;
-    margin-bottom: 20px;
-    padding-left: 150px;
-}
-.containet-img{
-    padding-left: 150px;
-}
-.contant-title{
-    padding-right: 100px;
-    font-size: 40px;
-    margin-bottom: 30px;
-    margin-top: 130px;
-    width: 300px;
-}
-.footer-contant{
-     padding-right: 100px;
-}
-.contact-input input{
-    width: 70%;
-    height: 50px;
-    border: none;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-}
-textarea{
-    border: none;
-    padding: 20px;
-    resize: none;
-    border-radius: 5px;
-    width: 70%;
-}
-.contant-btn{
-    margin-top: 30px;
-    margin-bottom: 50px;
-   
+.contact .section-title{
+    text-align: left;
 }
 
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+/* contact section end */
 
 /* responsive section */
 @media screen and (max-width:576px) {
      .what-i-do, .resume-containers{
-        /* max-width: 70%;  */
+        max-width: 70%; 
      }
-    .skill-container,.resume-container{
+    .skill-container,.resume-container,.about-sub-dec{
         flex-direction: column;
         padding: 10px 10px;
-        
     }
+    .about-container{
+        padding: 20px;
+    }
+    .about-dec{
+        width: 300px;
+    }
+    
 }
