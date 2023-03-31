@@ -223,7 +223,12 @@ main {
     width: 100%;
     padding: 18px 30px;
 }
-
+#contact-textarea{
+    resize: none;
+}
+.contact-img{
+    margin-top: 10px;
+}
 input{
     height: 64px;
 }
@@ -231,14 +236,18 @@ input{
 .contact a{
     text-decoration: none;
 }
+.contact-btn{
+    width: 200px;
+    height: 70px;
+}
 /* contact section end */
 
 /* responsive section */
 @media screen and (max-width:576px) {
      .what-i-do, .resume-containers{
-        max-width: 70%; 
+        max-width: 60%; 
      }
-    .skill-container,.resume-container,.about-sub-dec{
+    .skill-container,.resume-container,.about-sub-dec,.contact{
         flex-direction: column;
         padding: 10px 10px;
     }
@@ -247,6 +256,16 @@ input{
     }
     .about-dec{
         width: 300px;
+    }
+    .section-title{
+        padding-left: 100px;
+    }
+    .section-description{
+        width: 50%;
+        padding-left: 100px;
+    }
+    .contact-img{
+        padding-left: 100px;
     }
     
 }
