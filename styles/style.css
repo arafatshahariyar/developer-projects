@@ -257,6 +257,7 @@ input{
     
     .section-description{
         width: 50%;
+        padding: 0 15px;
     }
 
     .header{
@@ -283,6 +284,12 @@ input{
     .about-dec{
         width: 90%;
         padding-left: 0;
+    }
+    .contact{
+        padding: 0;
+    }
+    img{
+        margin-left: 10px;
     }
 
 }
