@@ -1,6 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 /* body{
     background-color:rgba(112, 128, 144, 0);
@@ -67,9 +67,7 @@ i{
     margin: 0 200px;
     /* margin-bottom: 50px; */
 }
-.banner-container{
-    
-}
+
 .banner-item{
     font-weight: 600;
     margin-bottom: 20px;
@@ -113,8 +111,7 @@ main {
     margin: auto;
     font-size: 1.3rem;
     padding: 10px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px; 
 }
 .about-sub-dec{
    display: flex;
@@ -244,28 +241,48 @@ input{
 
 /* responsive section */
 @media screen and (max-width:576px) {
-     .what-i-do, .resume-containers{
-        max-width: 60%; 
+     .container, .about-container, .what-i-do, .resume-containers, .contact{
+        width: 100%;
      }
-    .skill-container,.resume-container,.about-sub-dec,.contact{
+     .container,.skill-container,.resume-container,.about-sub-dec,.contact{
         flex-direction: column;
         padding: 10px 10px;
+    }
+    .container{
+        margin-left: 0;
     }
     .about-container{
         padding: 20px;
     }
-    .about-dec{
-        width: 300px;
-    }
-    .section-title{
-        padding-left: 100px;
-    }
+    
     .section-description{
         width: 50%;
-        padding-left: 100px;
     }
-    .contact-img{
-        padding-left: 100px;
+
+    .header{
+        background-image: none;
     }
-    
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items ul{
+        flex-direction: column;
+    }
+    .bannr-decription{
+        width: 100%;
+    }
+    .about-container,.about-dec{
+        text-align: left;
+    }
+    .what-i-do,.section-title,.skill-description,.nav-container,.nav-items ul{
+        text-align: left;
+    }
+    .banner-right-container img{
+          width: 100%;
+    }
+    .about-dec{
+        width: 90%;
+        padding-left: 0;
+    }
+
 }
